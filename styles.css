@@ -1,11 +1,17 @@
-    .fullscreen-container {
-      display: flex;
-      justify-content: center; /* Horizontally centers */
-      align-items: center;     /* Vertically centers */
-      width: 100vw;            /* Takes full width of screen */
+.fullscreen-container {
+  display: flex;
+  justify-content: center; /* Horizontally centers */
+  align-items: center;     /* Vertically centers */
+  width: 100vw;            /* Takes full width of screen */
     }
-    .fullscreen-container img {
-      max-width: 80%;   /* Keeps image from exceeding 80% of screen width */
-      height: 200px;  /* Keeps image from exceeding 80% of screen height */
-      object-fit: contain; /* Prevents stretching or distortion */
+.fullscreen-container img {
+  max-width: 100%;   /* Keeps image from exceeding 80% of screen width */
+  height: 100px;  /* Keeps image from exceeding 80% of screen height */
+  object-fit: contain; /* Prevents stretching or distortion */
     }
+iframe {
+    border: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
