@@ -4,24 +4,32 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>The North York Times</title>
+      <link rel="icon" type="image/png" href="./images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="styles.css">
+
   </head>
   <body>
-    <div clas="sidenav">
-      <a href="sports.html"class="sports">Sports</a>
+    <div class="fullscreen-container">
+      <a href = "index.html"> <img src="images/banner.png"></a>
     </div>
 
-    <div class="fullscreen-container">
-      <img src="images/banner.png">
-      <iframe src="https://free.timeanddate.com/clock/i9c4gmgl/n250/fn15/fs32/ftb" frameborder="0" width="195" height="40"></iframe>
-    </div>
+    <section>
+      <ul class="menu">
+        <li>
+          <a href = "search.html">🔍</a>
+        </li>
+        <li>
+          <a href = "sports.html">Sports</a>
+        </li>
+      </ul>
+    </section>
+    
     <br>
-    <br>
-    <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
-    <div class="commonninja_component pid-c5815987-edbb-4cc1-853d-591d5abaacfa"></div>
-    <br>
-    <br>
-    <script src="https://static.elfsight.com/platform/platform.js" async></script>
-    <div class="elfsight-app-792bddd0-8ae6-43ec-b347-375dddd8d40f" data-elfsight-app-lazy></div>
+    <div class="scorestream-widget-container" data-ss_widget_type="horzScoreboard" data-user-widget-id="58917"></div><script async="async" type="text/javascript" src="https://scorestream.com/apiJsCdn/widgets/embed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.2.10/iframeResizer.min.js"></script>
+    <iframe onload="iFrameResize(this)" src="https://34c867fc7fa54b8c82cac500b47c585d.elf.site" style="border:none;width:100%;"></iframe>
     </body>
 </html>
